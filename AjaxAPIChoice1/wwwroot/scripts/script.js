@@ -2,7 +2,7 @@
 
 $('#fetchBtn').on('click', function () {
     $.ajax({
-        url: `https://catfact.ninja/fact`,
+        url: `https://cat-fact.herokuapp/facts`,
         method: 'GET',
         success: function (response) {
 
